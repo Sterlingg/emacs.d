@@ -1,5 +1,11 @@
+# Auto save
+*.*~
+
 # Compiled
 *.elc
 
 # Packaging
 .cask
+
+# Packages
+elpa

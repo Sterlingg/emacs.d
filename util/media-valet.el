@@ -1,0 +1,1 @@
+(defun 'mv-escape-guid)
