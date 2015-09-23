@@ -8,3 +8,6 @@
 
 ;; Enable yasnippet
 (yas-global-mode 1)
+
+;; Different coloured delimiters for each level of nesting
+(rainbow-delimiters-mode)
