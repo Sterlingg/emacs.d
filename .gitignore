@@ -12,3 +12,6 @@ elpa
 
 # Eshell directory
 eshell
+
+# Server directory
+server
