@@ -10,7 +10,6 @@
 		(s-replace "b" "b62" 
 			   regionString)))))
 
-
 ; Outputs a compare to string from the given region
 (defun mv-compare-to-pk (start end)
   (interactive "r")
@@ -23,7 +22,7 @@
     (insert " && ")
 
     (insert "entry.PartitionKey.CompareTo(\"")
-    (insert (s-left (- 1 (length regionString)) regionString))
+    (insert (s-left (- (length regionString) 1) regionString))
     (insert
      (+ (string-to-char (s-right 1 regionString)) 1))
     (insert "\") < 0")
