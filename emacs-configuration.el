@@ -9,3 +9,9 @@
 ; with the same mode
 (toggle-uniquify-buffer-names)
 
+; Save auto-save files to the systems temp directory
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))

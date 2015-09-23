@@ -1,5 +1,5 @@
 ; list the packages you want
-(setq package-list '(helm coffee-mode dash yasnippet nyan-mode))
+(setq package-list '(ace-jump-mode coffee-mode dash magit s helm nyan-mode yasnippet))
 
 ; list the repositories containing them
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
