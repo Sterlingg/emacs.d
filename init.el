@@ -3,7 +3,9 @@
 (load "~/.emacs.d/install-missing-packages")
 (load "~/.emacs.d/load-libraries")
 (load "~/.emacs.d/enable-disabled-commands")
-(load "~/.emacs.d/mode-configuration")
+
+(load "~/.emacs.d/mode-setup")
+(load "~/.emacs.d/mode-configuration/nyan")
 (load "~/.emacs.d/mode-hooks")
 
 (load "~/.emacs.d/emacs-configuration")
