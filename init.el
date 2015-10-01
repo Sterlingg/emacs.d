@@ -16,6 +16,7 @@
 
 ; Load utility functions
 (load "~/.emacs.d/util/media-valet")
+(load "~/.emacs.d/util/regex")
 
 ; Create key bindings *Note this should always occur after any other loads*
 (load "~/.emacs.d/key-bindings/emacs")
