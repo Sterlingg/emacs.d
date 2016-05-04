@@ -1,6 +1,13 @@
 ;; Main entry point when starting Emacs
 
 ; Install packages and load packages
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (load "~/.emacs.d/install-missing-packages")
 (load "~/.emacs.d/load-libraries")
 
@@ -25,3 +32,18 @@
 (load "~/.emacs.d/key-bindings/magit")
 (load "~/.emacs.d/key-bindings/navigation")
 (load "~/.emacs.d/key-bindings/org")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(package-selected-packages
+   (quote
+    (helm-projectile yasnippet typescript-mode s rainbow-delimiters paredit nyan-mode magit help-fns+ helm dired+ coffee-mode ace-jump-mode))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
