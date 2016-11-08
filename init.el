@@ -40,7 +40,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (helm-projectile yasnippet typescript-mode s rainbow-delimiters paredit nyan-mode magit help-fns+ helm dired+ coffee-mode ace-jump-mode))))
+    (helm-projectile yasnippet s rainbow-delimiters paredit nyan-mode magit help-fns+ helm dired+ coffee-mode ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
